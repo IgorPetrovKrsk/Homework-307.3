@@ -1,0 +1,28 @@
+body{
+    background-color: #030637;
+    color: #720455;
+}
+a{
+    color: #720455;
+}
+h3{
+    margin-top: 3px;
+   margin-bottom: 3px; 
+}
+
+input{
+    background-color: #777777;
+    color: whitesmoke;    
+}
+input::placeholder{
+    color: whitesmoke;
+}
+
+.imgShowPassword{
+    position: relative;
+    right: 25px;
+    top: 6px;
+}
+.inputPassport{
+    padding-right: 25px;
+}
