@@ -9,37 +9,46 @@
 </head>
 
 <body>
-    <header>
-        <img src="../images/Cinemalink.webp" alt="CinemaLink logo" width="150px">
-    </header>
-    <h1>Login</h1>
-    <h3>Email</h3>
-    <input type="email" name="email" id="email" placeholder="Email">
-    <h3>Password</h3>
-    <input class = "inputPassword" type="password" name="password" id="password" placeholder="Password">
-    <img class="imgShowPassword" src="../images/show.png" alt="Show password" width="20px">
-    <br>
-    <br>
-    <label>
-        <input type="checkbox" name="stayLogged" id="">
-        Remember me
-    </label>
-    <br>
-    <br>
-    <input type="submit" value="Login">
-    <br>
-    <br>
-    <a href="../pages/register.html">Don't have an account? Sign up.</a>
-    <p>Or login with</p>
-    <a href="https://google.com" target="_blank">
-        <img src="../images/google.png" alt="Login with Google" width="50px">
-    </a>
-    <a href="https://facebook.com" target="_blank">
-        <img src="../images/facebook.png" alt="Login with Facebook" width="50px">
-    </a>
-    <a href="https://apple.com" target="_blank">
-        <img src="../images/apple.png" alt="Login with AppleId" width="50px">
-    </a>
+    <div id="divLogin">
+        <header>
+            <img class="imgCinemaLinkLogo" src="../images/Cinemalink.webp" alt="CinemaLink logo" width="150px">
+        </header>
+        <h1>Login</h1>
+        <h3>Email</h3>
+        <input class="inputEmail" type="email" name="email" id="email" placeholder="Email">
+        <h3>Password</h3>
+        <input class="inputPassword" type="password" name="password" id="password" placeholder="Password">
+        <img id="imgLoginShowPassword" src="../images/show.png" alt="Show password" width="20px">
+
+        <br>
+        <label>
+            <input type="checkbox" name="stayLogged" id="stayLogged">
+            Remember me
+        </label>
+        <br>
+        <br>
+        <input id="inLogin" type="submit" value="Login">
+
+        <br>
+        <a href="../pages/register.html">Don't have an account? Sign up.</a>
+        <p>Or login with</p>
+        <a class="imgLoginLogo" href="https://google.com" target="_blank">
+            <img src="../images/google.png" alt="Login with Google" width="50px">
+        </a>
+        <a class="imgLoginLogo" href="https://facebook.com" target="_blank">
+            <img src="../images/facebook.png" alt="Login with Facebook" width="50px">
+        </a>
+        <a class="imgLoginLogo" href="https://apple.com" target="_blank">
+            <img src="../images/apple.png" alt="Login with AppleId" width="50px">
+        </a>
+
+
+
+
+    </div>
+
+
+
 </body>
 
 </html>

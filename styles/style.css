@@ -1,29 +1,98 @@
 body{
-    background-color: #030637;
-    color: #720455;
+        color: #8f4f7b;
 }
 a{
-    color: #720455;
+    color: #8f4f7b;
+}
+h1{
+       text-shadow: 1px 1px 2px white, 0 0 1em white, 0 0 0.2em white;
 }
 h3{
-    margin-top: 3px;
+   text-shadow: 0px 0px 2px rgb(0, 0, 0);
+   margin-top: 3px;
    margin-bottom: 3px; 
 }
 
 input{
     background-color: #777777;
     color: whitesmoke;    
-    border-radius: 7px;
+    border-radius: 7px;    
 }
 input::placeholder{
     color: whitesmoke;
 }
 
-.imgShowPassword{
-    position: relative;
-    right: 27px;
-    top: 6px;
+#imgLoginShowPassword{
+    position: absolute;
+    right: 15px;
+    top: 325px;
+    
 }
-.inputPassport{
-    padding-right: 25px;
+#imgRegisterShowPassword{
+    position: absolute;
+    right: 15px;
+    top: 362px;    
+}
+#imgRegisterShowPassword2{
+    position: absolute;
+    right: 15px;
+    top: 411px;    
+}
+.inputPassword{
+    width: 100%;
+}
+.inputEmail{
+    width: 100%;
+}
+
+#divLogin{
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    position: relative;
+    width: 250px;
+    /* background-color: #030637; */
+    background-image: linear-gradient(rgb(17, 70, 29),#030637);
+    border-radius: 7px;
+    padding: 20px;
+
+    top: 100px;
+    left: 50px;
+    padding-bottom: 20px;
+}
+#divRegister{
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    position: relative;
+    width: 250px;
+    /* background-color: #030637; */
+    background-image: linear-gradient(rgb(17, 70, 29),#030637);
+    border-radius: 7px;
+    padding: 20px;
+
+    top: 100px;
+    left: 50px;
+    padding-bottom: 20px;
+}
+
+.imgCinemaLinkLogo{
+    display: block;
+    margin: auto;
+    border-radius: 40px;    
+}
+
+#inLogin{
+    display: block;
+    margin: auto;
+    width: 50%;
+    height: 2rem;
+}
+
+#inRegister{
+    display: block;
+    margin: auto;
+    width: 50%;
+    height: 2rem;
+}
+
+.imgLoginLogo{
+    margin-right: 20px;
+    text-decoration: none; /* WTF!!! here are no text in anchors but there ARE underlines*/
 }

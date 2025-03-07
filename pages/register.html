@@ -9,23 +9,25 @@
 </head>
 
 <body>
-    <header>
-        <img src="../images/Cinemalink.webp" alt="CinemaLink logo" width="150px">
-    </header>
-    <a href="../pages/login.html">Already have an account? Login</a>
-    <h1>Login</h1>
-    <h3>Email</h3>
-    <input type="email" name="email" id="email" placeholder="Email">
-    <h3>Password</h3>
-    <input type="password" name="password" id="password" placeholder="Password">
-    <img class="imgShowPassword" src="../images/show.png" alt="Show password" width="20px">
-    <h3>Confirm password</h3>
-    <input type="password" name="password" id="password" placeholder="Password">
-    <img class="imgShowPassword" src="../images/show.png" alt="Show password" width="20px">
-    <br>
-    <br>
-    <input type="submit" value="Sing Up">
-  
+    <div id="divRegister">
+        <header>
+            <img class="imgCinemaLinkLogo" src="../images/Cinemalink.webp" alt="CinemaLink logo" width="150px">
+        </header>
+        <br>
+        <a href="../pages/login.html">Already have an account? Login</a>
+        <h1>Register</h1>
+        <h3>Email</h3>
+        <input class="inputEmail" type="email" name="email" id="email" placeholder="Email">
+        <h3>Password</h3>
+        <input class="inputPassword" type="password" name="password" id="password" placeholder="Password">
+        <img id="imgRegisterShowPassword" src="../images/show.png" alt="Show password" width="20px">
+        <h3>Confirm password</h3>
+        <input class="inputPassword" type="password" name="password" id="password" placeholder="Password">
+        <img id="imgRegisterShowPassword2" src="../images/show.png" alt="Show password" width="20px">
+        <br>        
+        <input id="inRegister" type="submit" value="Sing Up">
+    </div>
+
 </body>
 
 </html>
